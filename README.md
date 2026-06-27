@@ -1,5 +1,7 @@
 # CodeVector — Product Browser API
 
+🌐 **Live:** [codevector-assignment-hb7k.onrender.com](https://codevector-assignment-hb7k.onrender.com)
+
 Browse ~200,000 products with cursor-based pagination that stays correct even while data is changing. Filter by category, paginate forward, never see duplicates or miss a product.
 
 ## Architecture
@@ -125,6 +127,8 @@ npm start
 
 Open http://localhost:10000 to see the product browser UI.
 
+Or visit the live deployment: [codevector-assignment-hb7k.onrender.com](https://codevector-assignment-hb7k.onrender.com)
+
 ## API
 
 ### `GET /api/products`
@@ -210,6 +214,9 @@ Replace `<your-seed-api-key>` with the value from your `.env` file.
 
 ## Deployment (Render)
 
+The project is already deployed at: [codevector-assignment-hb7k.onrender.com](https://codevector-assignment-hb7k.onrender.com)
+
+To deploy your own instance:
 1. Push the repository to GitHub
 2. Go to [render.com](https://render.com) → New Web Service → Connect your repo
 3. Configure:
@@ -219,7 +226,6 @@ Replace `<your-seed-api-key>` with the value from your `.env` file.
      - `MONGODB_URI` — from MongoDB Atlas
      - `SEED_API_KEY` — a random UUID
 4. Deploy
-5. Open the UI and click "Load More" to verify pagination works
 
 ## Future Improvements
 
